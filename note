@@ -1,0 +1,79 @@
+                        angular-front end
+                        -----------------
+
+                        basic commands
+                1.to create project: ng new project-name
+                2.to run angular project: ng serve --open
+                3.to generate component: ng g c component-name
+                4.to generate service-
+
+                   ------------------------------
+
+
+                       basic building blocks
+                       ---------------------
+        1.module-to import third party library
+        2.component-to create a new html,css,ts file(root component-app component)
+        3.data binding-share data inside component
+                3.1. one way binding-data sharing online in one direction
+                                                         ----------------- 
+                                                        | view=html file  |
+                                                        |component=ts file|
+                                                         -----------------
+                3.1.1.1 string interpolation- {{expression}}    
+                3.1.1.2 property binding=[attribute name]="property name"
+            3.1.2 view (html) component(ts)
+                3.1.2.1:event binding   (event name)="function name()"
+
+                3.1.2.2:event binding using $event as argument  (event name)="function name($event)"
+                3.1.2.3: event binding using template referencing variable=#variable name
+
+        3.2 two way binding-data sharing online in both direction  
+                3.2.1: ngModel  -  import Formsmodule in AppModule
+                    -[(ngModel)]="property-name"   should defined in ts file        
+
+
+
+    4: Angular routing - to set path for component in app routing module - {path:value,component:class name}
+
+    5:Dependency injection-to share data b etween dependent classes
+
+    6.angular services-to hold redundent data
+    7.ngSubmit
+    8.Angular Directives - to manipulate dom
+        8.1 component Directives
+        8.2 Structural Directive- to change the structure of 
+            8.2.1-*ngFor
+
+        8.3 Attribute directives    
+
+
+    9.Angular Forms
+        9.1.template driven forms-first design html
+        9.2. Model Driven Forms-first design in ts files
+            9.2.1 reactive forms-form group,array,control
+                                -Add validations
+                                -import Reactive forms module
+= =  = = = = = = = = = = == =  == = = = = = = = = = = = = ==  == = = = = = = = = == == =  = == =  === =  ===================================================
+
+10: local storage
+
+    10.1:setItem
+    10.2:getItem
+    20.3:deleteItem......
+
+
+      11.parent child communication
+            11.1 create a div(parent to child - @input)  
+            11.2 child to parent -@Output
+      
+        12.Angular Pipe
+
+      13.Front end -back end
+                        13.1 Import HttpClientModule
+                        13.2 Inject HttpClient
+                        13.3Using HttpClient Make Api Calls
+        
+        14.Asynchronous Calls-Rxjs
+            14.1 Observable
+                14.1.1                
